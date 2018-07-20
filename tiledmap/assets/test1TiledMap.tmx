@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="80" tileheight="80" infinite="0" nextobjectid="38">
+ <tileset firstgid="1" name="uielement" tilewidth="80" tileheight="80" tilecount="9" columns="3">
+  <image source="uielement1.png" trans="ff00ff" width="240" height="241"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="wall1"/>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="name" value="wall2"/>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="name" value="wall3"/>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3" probability="2">
+   <properties>
+    <property name="load" value="true"/>
+    <property name="name" value="road"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="tree" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="16" height="9" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="roads" width="16" height="9" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJylkEsKQCEMA9voovc/8dsoDLG+jYWA0kx/Ee+RpsJ7rP9Yoo/8hNL4vHh2uMdZNTnnb57NCzkZX9h52v6KczatnuxP/k+FGryf37abX9Hv/xIfDXMA7w==
+  </data>
+ </layer>
+ <layer name="trees" width="16" height="9" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYKcQkwLYkNjI+lnxqMMFYPoJqcUlT477kc0kRj8+tyHrJ8a/+PSTAmB2URrvIAwArxMBeA==
+  </data>
+ </layer>
+ <objectgroup name="Object-Player" visible="0" locked="1">
+  <object id="30" name="point1" x="162" y="166" width="70" height="70"/>
+  <object id="31" name="point2" x="322" y="164" width="74" height="70"/>
+  <object id="32" name="point3" x="322" y="484" width="74" height="68"/>
+  <object id="33" name="point4" x="884" y="484" width="70" height="64"/>
+  <object id="34" name="point5" x="884" y="166" width="72" height="72"/>
+  <object id="35" name="point6" x="1044" y="162" width="74" height="78"/>
+ </objectgroup>
+</map>
